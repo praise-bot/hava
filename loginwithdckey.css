@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(129, 5, 5);
+}
+
+
+.login-box{
+    display: flexbox;
+    background-color: white;
+    width: 310px;
+    height: 450px;
+    margin-top: 100px;
+   margin-left: 540px;
+    border-radius: 9px;
+    position: fixed;
+    
+}
+
+.input-email{
+    border: 1px solid rgb(240, 239, 239);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+#email{
+    background-color: rgb(240, 239, 239);
+    height: 100%;
+    font-weight: 100;
+    display: inline-flex;
+    align-items: center;
+}
+
+input[type=email]{
+   width: 100%;
+   outline: 0;
+   border: 0;
+   margin-left: 10px;
+}
+
+.input-password{
+    border: 1px solid rgb(240, 239, 239);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+
+input[type=password]{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    margin-left: 10px;
+ }
+
+ #password{
+    background-color: rgb(240, 239, 239);
+    height: 100%;
+    font-weight: 100;
+    display: inline-flex;
+    align-items: center;
+}
+
+.forgot{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
+
+}
+
+.login{
+    background-color: rgb(4, 4, 65);
+    margin-top: 30px;
+    display: flex;
+    height: 80px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transition: font-size 0.5s ease-in-out;
+}
+.login:hover{
+    font-size: 20px;
+}
