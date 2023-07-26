@@ -606,7 +606,7 @@ li::before{
    @media only screen and (max-width: 450px) {
      body{
     
-   
+
     
      }
 
@@ -615,7 +615,7 @@ li::before{
         position:relative;
         top: 0;
         left: 0;
-        width: 65%;
+        width: 52.5%;
         background-color: rgb(19, 12, 12);
         color: white;
         padding: 19px;
