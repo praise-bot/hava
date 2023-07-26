@@ -7,6 +7,7 @@
 body{
   font-family: sans-serif; 
   background-color: beige;
+  max-width: 100%;
 }
     /* First nav bar */
 .header{
@@ -265,7 +266,7 @@ body{
   align-items: center;
   border-radius: 50px;
   color: black;
-
+  background-color: white;
 }
 
 .search:hover{
@@ -283,7 +284,9 @@ body{
     align-items: center;
     border-radius: 50px;
     color: black;
-
+    background-color: white;
+    font-weight: 900;
+  
 }
 
 .menu:hover{
@@ -575,6 +578,125 @@ hr{
     display: flex;
     flex-direction: row;
    }
+
+   .para-sml{
+   color: gray; 
+   font-size: 25px;
+   }
+
+   .the-lists{
+    
+   }
+ul{
+    list-style: none;
+}
+
+
+li::before{
+   content: '\2192';
+   display: inline-block;
+   color: #c08b31; 
+   margin-right: 10px;
+}
+                         /* MOBILE DISPLAY */
+
+
+
+
+   @media only screen and (max-width: 450px) {
+     body{
+    
+   
+    
+     }
+
+     .header{
+        display:block;
+        position:relative;
+        top: 0;
+        left: 0;
+        width: 65%;
+        background-color: rgb(19, 12, 12);
+        color: white;
+        padding: 19px;
+        /* justify-content: space-between; */
+        align-items: center;
+        font-size: 10px;
+    }
+    .second-header{
+        display: inline-flex;
+        /* background-color: yellow; */
+        /* position: absolute; */
+        justify-content: center;
+        margin-top: 30px;
+        width: 10%;
+        left: 0;
+        font-size: 10px;
+         
+        
+    }
+    .nav-logo-ghost{
+        display: none;
+  }
+  .header .left{
+    margin-top: 10px;
+  }
+  .center{
+    display: none;
+  }
+  
+  .get-info{
+    display: none
+  }
+
+  .menu{
+    border: 1px solid black;  
+    height: 30px;
+    cursor: pointer;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50px; */
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.search{
+    border: 1px solid black;  
+    height: 30px;
+    cursor: pointer;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    font-weight: 900;
+  }
+
+  .home-content{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    width: 44%;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.para-sml{
+    font-size: 15px;
+    width: 220px;
+    
+}
+
+   };
+
 
 
 
