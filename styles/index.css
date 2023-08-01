@@ -620,6 +620,38 @@ li::before{
     margin-top: 30px;
 }
 
+.fall-reg{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    height: 100vh;
+   
+    
+}
+
+.fall-message{
+width: 33%;
+margin-right: 10%;
+margin-left: 1.5%;
+border: 1px solid black;
+height: 500px;
+margin-top: 50px;
+font-family: nunito;
+font-weight: 600;
+font-size: 22px;
+}
+
+.fall-image{
+width: 50%;
+height: 500px;
+border: 1px solid black;
+display: inline-flex;
+margin-right: 2%;
+margin-top: 50px;
+margin-left: 6%;
+}
 
 
 
