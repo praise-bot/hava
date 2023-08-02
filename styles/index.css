@@ -622,12 +622,11 @@ li::before{
 
 .fall-reg{
     display: flex;
-    border: 1px solid black;
     width: 100%;
     background-color: white;
     margin-top: 100px;
     height: 100vh;
-   
+  
     
 }
 
@@ -635,7 +634,6 @@ li::before{
 width: 33%;
 margin-right: 10%;
 margin-left: 1.5%;
-border: 1px solid black;
 height: 500px;
 margin-top: 50px;
 font-family: nunito;
@@ -646,13 +644,64 @@ font-size: 22px;
 .fall-image{
 width: 50%;
 height: 500px;
-border: 1px solid black;
 display: inline-flex;
 margin-right: 2%;
 margin-top: 50px;
 margin-left: 6%;
 }
 
+.browse{
+    background-color: purple;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    margin-top: 30px;
+    display: inline-flex;
+    font-size: 15px;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    transition: transform  0.5s ease-in-out ;
+    margin-left: 3px;
+}
+
+.browse:hover{
+    transform: scale(1.2);
+    
+}
+
+.havard-socials{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-links{
+ margin-left: auto;
+ background-color: purple;
+}
+
+.left-links,a{
+
+}
+
+.Hvr-dce{
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 20s ease-in-out;
+}
+
+
+
+.Hvr-dce:hover{
+  text-decoration: underline;
+}
 
 
 
